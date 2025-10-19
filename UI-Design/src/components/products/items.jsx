@@ -1,10 +1,9 @@
-import React from 'react'
 
 const products = (props) => {
   return (
     <>
     <div className='w-full h-auto flex flex-wrap  flex-row justify-center items-center  '>
-    <div className='w-[400px] h-auto mx-5 mt-20 border-2 rounded-lg shadow-lg overflow-hidden '>
+    <div className='w-[420px] h-fit mx-5 mt-20  rounded-lg shadow-lg overflow-hidden shadow-blue-400 '>
       <div className='w-full h-50  '>
          <img src={props.img} alt="" className='w-full h-80'/>
       </div>

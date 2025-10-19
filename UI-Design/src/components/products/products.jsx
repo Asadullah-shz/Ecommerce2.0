@@ -1,7 +1,9 @@
 import React from 'react'
-import Head from './products/head.jsx'
-import Salebanner from './products/salebanner.jsx'
-import Items from './products/items.jsx'
+import Head from './head.jsx'
+import Salebanner from './salebanner.jsx'
+import Items from './items.jsx'
+import Batton from './button.jsx'
+
 
 
 const products = () => {
@@ -43,7 +45,8 @@ const products = () => {
     <>
      <div>
         <Head />    
-        <Salebanner />   
+        <Salebanner />  
+        
         </div>
  
    <div className='flex justify-center'>
@@ -52,7 +55,9 @@ const products = () => {
         <Items img={elem.img} title={elem.title} descri={elem.description} price={elem.price}/>
         </div>
     })}
+    
    </div>
+   <Batton /> 
     </>
    
   )
