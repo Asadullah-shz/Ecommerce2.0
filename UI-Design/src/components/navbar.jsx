@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const navbar = () => {
   return (
     <div className='flex   text-black p-4 border-b-2 border-gray-300  items-center h-20 iustify-space-between  py-4'>
