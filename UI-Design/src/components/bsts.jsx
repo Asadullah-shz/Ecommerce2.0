@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "./bestselling/head.jsx";
 import Items from "./reusable/items.jsx";
 

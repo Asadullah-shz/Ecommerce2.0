@@ -46,6 +46,22 @@ const products = () => {
       title:"Today's"
     },
   ]
+const Date=[
+  {
+    title:"Flash Sales",
+    Days:"Days",
+    Hours:"Hours",
+    Minutes:"Minutes",
+    Seconds:"Seconds",
+    DayNum: "9",
+    Hournum: "12",
+    Minnum: "45",
+    Secnum: "52",
+
+  },
+  
+
+];
 
   return (
     <>
@@ -58,7 +74,11 @@ const products = () => {
       
      <div>
          
-        <Salebanner />  
+          {Date.map(function(elem,idx){
+     return <div key={idx}>
+      <Salebanner title={elem.title} days={elem.Days} hours={elem.Hours} minutes={elem.Minutes} Seconds={elem.Seconds} DayNum={elem.DayNum} Hournum={elem.Hournum} minnum={elem.Minnum} Secnum={elem.Secnum} /> 
+     </div>
+    })}
         
         </div>
  

@@ -32,7 +32,15 @@ const categories = () => {
     {
       titl: "Categories",
     },
-  ];
+  ]; 
+  const Data=[
+  {
+    title:"Browse By Category",
+    
+    
+
+  },
+];
 
   return (
     <>
@@ -43,9 +51,13 @@ const categories = () => {
           </div>
         );
       })}
- <div className="mx-6">
+ <div className="mx-6 ">
          
-        <Salebanner />  
+          {Data.map(function(elem,idx){
+     return <div key={idx}>
+      <Salebanner className="" title={elem.title} data={elem.Date}  /> 
+     </div>
+     })}
         
         </div>
       <div className="flex justify-center ">
