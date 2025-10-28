@@ -1,6 +1,6 @@
 import React from 'react'
-import Left from './hero/left.jsx'
-import Right from './hero/right.jsx'
+import Left from './left.jsx'
+import Right from './right.jsx'
 
 const section = () => {
 

@@ -1,7 +1,0 @@
-.parent{
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    max-width: 900px;
-    margin: 100px auto 50px;
-}
